@@ -1,0 +1,729 @@
+[2017-01-24 09:39:22] local.ERROR: Symfony\Component\Console\Exception\CommandNotFoundException: Command "generate" is not defined.
+
+Did you mean one of these?
+    key:generate
+    event:generate in /data/vhosts/learn-api/vendor/symfony/console/Application.php:534
+Stack trace:
+#0 /data/vhosts/learn-api/vendor/symfony/console/Application.php(182): Symfony\Component\Console\Application->find('generate')
+#1 /data/vhosts/learn-api/vendor/symfony/console/Application.php(116): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 /data/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(121): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 /data/vhosts/learn-api/artisan(35): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 {main}  
+[2017-01-24 09:44:38] local.ERROR: Symfony\Component\Console\Exception\CommandNotFoundException: Command "router" is not defined.
+
+Did you mean one of these?
+    route:cache
+    route:clear
+    route:list in /data/vhosts/learn-api/vendor/symfony/console/Application.php:534
+Stack trace:
+#0 /data/vhosts/learn-api/vendor/symfony/console/Application.php(182): Symfony\Component\Console\Application->find('router')
+#1 /data/vhosts/learn-api/vendor/symfony/console/Application.php(116): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 /data/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(121): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 /data/vhosts/learn-api/artisan(35): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 {main}  
+[2017-01-24 09:53:50] local.ERROR: Symfony\Component\Console\Exception\CommandNotFoundException: Command "route" is not defined.
+
+Did you mean one of these?
+    route:cache
+    route:clear
+    route:list in /data/vhosts/learn-api/vendor/symfony/console/Application.php:534
+Stack trace:
+#0 /data/vhosts/learn-api/vendor/symfony/console/Application.php(182): Symfony\Component\Console\Application->find('route')
+#1 /data/vhosts/learn-api/vendor/symfony/console/Application.php(116): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 /data/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(121): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 /data/vhosts/learn-api/artisan(35): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 {main}  
+[2017-01-24 10:02:30] local.ERROR: exception 'ErrorException' with message 'file_put_contents(/home/work/data/www/vhosts/learn-api/bootstrap/cache/services.php): failed to open stream: Permission denied' in /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:111
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/home/work/data...', 111, Array)
+#1 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(111): file_put_contents('/home/work/data...', '<?php return ar...', 0)
+#2 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php(190): Illuminate\Filesystem\Filesystem->put('/home/work/data...', '<?php return ar...')
+#3 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php(135): Illuminate\Foundation\ProviderRepository->writeManifest(Array)
+#4 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php(60): Illuminate\Foundation\ProviderRepository->compileManifest(Array)
+#5 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(540): Illuminate\Foundation\ProviderRepository->load(Array)
+#6 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterProviders.php(17): Illuminate\Foundation\Application->registerConfiguredProviders()
+#7 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(203): Illuminate\Foundation\Bootstrap\RegisterProviders->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(254): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(145): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(117): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#11 /home/work/data/www/vhosts/learn-api/public/index.php(54): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#12 {main}  
+[2017-01-24 10:03:59] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected end of file' in /home/work/data/www/vhosts/learn-api/app/Lesson.php:11
+Stack trace:
+#0 {main}  
+[2017-01-24 10:04:01] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected end of file' in /home/work/data/www/vhosts/learn-api/app/Lesson.php:11
+Stack trace:
+#0 {main}  
+[2017-01-24 10:04:02] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected end of file' in /home/work/data/www/vhosts/learn-api/app/Lesson.php:11
+Stack trace:
+#0 {main}  
+[2017-01-24 11:41:50] local.ERROR: exception 'ErrorException' with message 'Illegal string offset 'title'' in /home/work/data/www/vhosts/learn-api/app/Http/Controllers/LessonsController.php:44
+Stack trace:
+#0 /home/work/data/www/vhosts/learn-api/app/Http/Controllers/LessonsController.php(44): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Illegal string ...', '/home/work/data...', 44, Array)
+#1 [internal function]: App\Http\Controllers\LessonsController->App\Http\Controllers\{closure}('Aperiam molliti...')
+#2 /home/work/data/www/vhosts/learn-api/app/Http/Controllers/LessonsController.php(48): array_map(Object(Closure), Array)
+#3 /home/work/data/www/vhosts/learn-api/app/Http/Controllers/LessonsController.php(37): App\Http\Controllers\LessonsController->transform(Object(App\Lesson))
+#4 [internal function]: App\Http\Controllers\LessonsController->show('55')
+#5 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(55): call_user_func_array(Array, Array)
+#6 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(44): Illuminate\Routing\Controller->callAction('show', Array)
+#7 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Route.php(190): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(App\Http\Controllers\LessonsController), 'show')
+#8 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Route.php(144): Illuminate\Routing\Route->runController()
+#9 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Router.php(653): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#10 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Routing\Router->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#11 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(41): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#12 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate\Routing\Middleware\SubstituteBindings->handle(Object(Illuminate\Http\Request), Object(Closure))
+#13 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(33): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#14 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Middleware/ThrottleRequests.php(49): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#15 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate\Routing\Middleware\ThrottleRequests->handle(Object(Illuminate\Http\Request), Object(Closure), '60', '1')
+#16 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(33): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#17 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(104): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#18 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Router.php(655): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#19 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Router.php(629): Illuminate\Routing\Router->runRouteWithinStack(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request))
+#20 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Router.php(607): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#21 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(268): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#22 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Foundation\Http\Kernel->Illuminate\Foundation\Http\{closure}(Object(Illuminate\Http\Request))
+#23 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/CheckForMaintenanceMode.php(46): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#24 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode->handle(Object(Illuminate\Http\Request), Object(Closure))
+#25 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(33): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#26 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(104): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#27 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(150): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#28 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(117): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#29 /home/work/data/www/vhosts/learn-api/public/index.php(54): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#30 {main}  
+[2017-01-24 11:42:01] local.ERROR: exception 'ErrorException' with message 'Undefined index: content' in /home/work/data/www/vhosts/learn-api/app/Http/Controllers/LessonsController.php:45
+Stack trace:
+#0 /home/work/data/www/vhosts/learn-api/app/Http/Controllers/LessonsController.php(45): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined index...', '/home/work/data...', 45, Array)
+#1 [internal function]: App\Http\Controllers\LessonsController->App\Http\Controllers\{closure}(Array)
+#2 /home/work/data/www/vhosts/learn-api/app/Http/Controllers/LessonsController.php(48): array_map(Object(Closure), Array)
+#3 /home/work/data/www/vhosts/learn-api/app/Http/Controllers/LessonsController.php(23): App\Http\Controllers\LessonsController->transform(Object(Illuminate\Database\Eloquent\Collection))
+#4 [internal function]: App\Http\Controllers\LessonsController->index()
+#5 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(55): call_user_func_array(Array, Array)
+#6 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(44): Illuminate\Routing\Controller->callAction('index', Array)
+#7 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Route.php(190): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(App\Http\Controllers\LessonsController), 'index')
+#8 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Route.php(144): Illuminate\Routing\Route->runController()
+#9 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Router.php(653): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#10 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Routing\Router->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#11 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(41): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#12 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate\Routing\Middleware\SubstituteBindings->handle(Object(Illuminate\Http\Request), Object(Closure))
+#13 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(33): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#14 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Middleware/ThrottleRequests.php(49): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#15 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate\Routing\Middleware\ThrottleRequests->handle(Object(Illuminate\Http\Request), Object(Closure), '60', '1')
+#16 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(33): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#17 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(104): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#18 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Router.php(655): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#19 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Router.php(629): Illuminate\Routing\Router->runRouteWithinStack(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request))
+#20 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Router.php(607): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#21 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(268): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#22 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Foundation\Http\Kernel->Illuminate\Foundation\Http\{closure}(Object(Illuminate\Http\Request))
+#23 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/CheckForMaintenanceMode.php(46): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#24 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode->handle(Object(Illuminate\Http\Request), Object(Closure))
+#25 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(33): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#26 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(104): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#27 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(150): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#28 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(117): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#29 /home/work/data/www/vhosts/learn-api/public/index.php(54): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#30 {main}  
+[2017-01-24 11:42:03] local.ERROR: exception 'ErrorException' with message 'Undefined index: content' in /home/work/data/www/vhosts/learn-api/app/Http/Controllers/LessonsController.php:45
+Stack trace:
+#0 /home/work/data/www/vhosts/learn-api/app/Http/Controllers/LessonsController.php(45): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined index...', '/home/work/data...', 45, Array)
+#1 [internal function]: App\Http\Controllers\LessonsController->App\Http\Controllers\{closure}(Array)
+#2 /home/work/data/www/vhosts/learn-api/app/Http/Controllers/LessonsController.php(48): array_map(Object(Closure), Array)
+#3 /home/work/data/www/vhosts/learn-api/app/Http/Controllers/LessonsController.php(23): App\Http\Controllers\LessonsController->transform(Object(Illuminate\Database\Eloquent\Collection))
+#4 [internal function]: App\Http\Controllers\LessonsController->index()
+#5 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(55): call_user_func_array(Array, Array)
+#6 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(44): Illuminate\Routing\Controller->callAction('index', Array)
+#7 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Route.php(190): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(App\Http\Controllers\LessonsController), 'index')
+#8 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Route.php(144): Illuminate\Routing\Route->runController()
+#9 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Router.php(653): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#10 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Routing\Router->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#11 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(41): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#12 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate\Routing\Middleware\SubstituteBindings->handle(Object(Illuminate\Http\Request), Object(Closure))
+#13 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(33): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#14 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Middleware/ThrottleRequests.php(49): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#15 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate\Routing\Middleware\ThrottleRequests->handle(Object(Illuminate\Http\Request), Object(Closure), '60', '1')
+#16 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(33): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#17 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(104): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#18 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Router.php(655): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#19 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Router.php(629): Illuminate\Routing\Router->runRouteWithinStack(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request))
+#20 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Router.php(607): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#21 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(268): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#22 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Foundation\Http\Kernel->Illuminate\Foundation\Http\{closure}(Object(Illuminate\Http\Request))
+#23 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/CheckForMaintenanceMode.php(46): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#24 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode->handle(Object(Illuminate\Http\Request), Object(Closure))
+#25 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(33): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#26 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(104): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#27 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(150): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#28 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(117): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#29 /home/work/data/www/vhosts/learn-api/public/index.php(54): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#30 {main}  
+[2017-01-24 12:22:44] local.ERROR: exception 'ReflectionException' with message 'Class App\Transformers\LessonTransformer does not exist' in /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionParameter->getClass()
+#1 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Container/Container.php(790): Illuminate\Container\Container->getDependencies(Array, Array)
+#2 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Container/Container.php(644): Illuminate\Container\Container->build('App\\Http\\Contro...', Array)
+#3 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(709): Illuminate\Container\Container->make('App\\Http\\Contro...', Array)
+#4 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Route.php(203): Illuminate\Foundation\Application->make('App\\Http\\Contro...')
+#5 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Route.php(316): Illuminate\Routing\Route->getController()
+#6 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Route.php(278): Illuminate\Routing\Route->controllerMiddleware()
+#7 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Router.php(666): Illuminate\Routing\Route->gatherMiddleware()
+#8 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Router.php(646): Illuminate\Routing\Router->gatherRouteMiddleware(Object(Illuminate\Routing\Route))
+#9 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Router.php(629): Illuminate\Routing\Router->runRouteWithinStack(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request))
+#10 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Router.php(607): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#11 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(268): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#12 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Foundation\Http\Kernel->Illuminate\Foundation\Http\{closure}(Object(Illuminate\Http\Request))
+#13 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/CheckForMaintenanceMode.php(46): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#14 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode->handle(Object(Illuminate\Http\Request), Object(Closure))
+#15 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(33): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#16 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(104): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#17 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(150): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#18 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(117): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#19 /home/work/data/www/vhosts/learn-api/public/index.php(54): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#20 {main}  
+[2017-01-24 12:22:44] local.ERROR: exception 'ReflectionException' with message 'Class App\Transformers\LessonTransformer does not exist' in /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionParameter->getClass()
+#1 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Container/Container.php(790): Illuminate\Container\Container->getDependencies(Array, Array)
+#2 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Container/Container.php(644): Illuminate\Container\Container->build('App\\Http\\Contro...', Array)
+#3 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(709): Illuminate\Container\Container->make('App\\Http\\Contro...', Array)
+#4 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Route.php(203): Illuminate\Foundation\Application->make('App\\Http\\Contro...')
+#5 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Route.php(316): Illuminate\Routing\Route->getController()
+#6 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Route.php(278): Illuminate\Routing\Route->controllerMiddleware()
+#7 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Router.php(666): Illuminate\Routing\Route->gatherMiddleware()
+#8 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(193): Illuminate\Routing\Router->gatherRouteMiddleware(Object(Illuminate\Routing\Route))
+#9 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(163): Illuminate\Foundation\Http\Kernel->gatherRouteMiddleware(Object(Illuminate\Http\Request))
+#10 /home/work/data/www/vhosts/learn-api/public/index.php(58): Illuminate\Foundation\Http\Kernel->terminate(Object(Illuminate\Http\Request), Object(Illuminate\Http\Response))
+#11 {main}  
+[2017-01-24 12:25:25] local.ERROR: exception 'ReflectionException' with message 'Class App\Transformers\LessonsTransformer does not exist' in /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionParameter->getClass()
+#1 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Container/Container.php(790): Illuminate\Container\Container->getDependencies(Array, Array)
+#2 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Container/Container.php(644): Illuminate\Container\Container->build('App\\Http\\Contro...', Array)
+#3 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(709): Illuminate\Container\Container->make('App\\Http\\Contro...', Array)
+#4 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Route.php(203): Illuminate\Foundation\Application->make('App\\Http\\Contro...')
+#5 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Route.php(316): Illuminate\Routing\Route->getController()
+#6 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Route.php(278): Illuminate\Routing\Route->controllerMiddleware()
+#7 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Router.php(666): Illuminate\Routing\Route->gatherMiddleware()
+#8 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Router.php(646): Illuminate\Routing\Router->gatherRouteMiddleware(Object(Illuminate\Routing\Route))
+#9 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Router.php(629): Illuminate\Routing\Router->runRouteWithinStack(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request))
+#10 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Router.php(607): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#11 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(268): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#12 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Foundation\Http\Kernel->Illuminate\Foundation\Http\{closure}(Object(Illuminate\Http\Request))
+#13 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/CheckForMaintenanceMode.php(46): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#14 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode->handle(Object(Illuminate\Http\Request), Object(Closure))
+#15 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(33): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#16 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(104): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#17 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(150): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#18 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(117): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#19 /home/work/data/www/vhosts/learn-api/public/index.php(54): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#20 {main}  
+[2017-01-24 12:25:25] local.ERROR: exception 'ReflectionException' with message 'Class App\Transformers\LessonsTransformer does not exist' in /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionParameter->getClass()
+#1 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Container/Container.php(790): Illuminate\Container\Container->getDependencies(Array, Array)
+#2 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Container/Container.php(644): Illuminate\Container\Container->build('App\\Http\\Contro...', Array)
+#3 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(709): Illuminate\Container\Container->make('App\\Http\\Contro...', Array)
+#4 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Route.php(203): Illuminate\Foundation\Application->make('App\\Http\\Contro...')
+#5 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Route.php(316): Illuminate\Routing\Route->getController()
+#6 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Route.php(278): Illuminate\Routing\Route->controllerMiddleware()
+#7 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Router.php(666): Illuminate\Routing\Route->gatherMiddleware()
+#8 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(193): Illuminate\Routing\Router->gatherRouteMiddleware(Object(Illuminate\Routing\Route))
+#9 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(163): Illuminate\Foundation\Http\Kernel->gatherRouteMiddleware(Object(Illuminate\Http\Request))
+#10 /home/work/data/www/vhosts/learn-api/public/index.php(58): Illuminate\Foundation\Http\Kernel->terminate(Object(Illuminate\Http\Request), Object(Illuminate\Http\Response))
+#11 {main}  
+[2017-01-24 12:25:26] local.ERROR: exception 'ReflectionException' with message 'Class App\Transformers\LessonsTransformer does not exist' in /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionParameter->getClass()
+#1 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Container/Container.php(790): Illuminate\Container\Container->getDependencies(Array, Array)
+#2 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Container/Container.php(644): Illuminate\Container\Container->build('App\\Http\\Contro...', Array)
+#3 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(709): Illuminate\Container\Container->make('App\\Http\\Contro...', Array)
+#4 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Route.php(203): Illuminate\Foundation\Application->make('App\\Http\\Contro...')
+#5 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Route.php(316): Illuminate\Routing\Route->getController()
+#6 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Route.php(278): Illuminate\Routing\Route->controllerMiddleware()
+#7 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Router.php(666): Illuminate\Routing\Route->gatherMiddleware()
+#8 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Router.php(646): Illuminate\Routing\Router->gatherRouteMiddleware(Object(Illuminate\Routing\Route))
+#9 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Router.php(629): Illuminate\Routing\Router->runRouteWithinStack(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request))
+#10 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Router.php(607): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#11 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(268): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#12 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Foundation\Http\Kernel->Illuminate\Foundation\Http\{closure}(Object(Illuminate\Http\Request))
+#13 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/CheckForMaintenanceMode.php(46): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#14 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode->handle(Object(Illuminate\Http\Request), Object(Closure))
+#15 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(33): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#16 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(104): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#17 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(150): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#18 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(117): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#19 /home/work/data/www/vhosts/learn-api/public/index.php(54): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#20 {main}  
+[2017-01-24 12:25:26] local.ERROR: exception 'ReflectionException' with message 'Class App\Transformers\LessonsTransformer does not exist' in /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionParameter->getClass()
+#1 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Container/Container.php(790): Illuminate\Container\Container->getDependencies(Array, Array)
+#2 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Container/Container.php(644): Illuminate\Container\Container->build('App\\Http\\Contro...', Array)
+#3 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(709): Illuminate\Container\Container->make('App\\Http\\Contro...', Array)
+#4 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Route.php(203): Illuminate\Foundation\Application->make('App\\Http\\Contro...')
+#5 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Route.php(316): Illuminate\Routing\Route->getController()
+#6 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Route.php(278): Illuminate\Routing\Route->controllerMiddleware()
+#7 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Router.php(666): Illuminate\Routing\Route->gatherMiddleware()
+#8 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(193): Illuminate\Routing\Router->gatherRouteMiddleware(Object(Illuminate\Routing\Route))
+#9 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(163): Illuminate\Foundation\Http\Kernel->gatherRouteMiddleware(Object(Illuminate\Http\Request))
+#10 /home/work/data/www/vhosts/learn-api/public/index.php(58): Illuminate\Foundation\Http\Kernel->terminate(Object(Illuminate\Http\Request), Object(Illuminate\Http\Response))
+#11 {main}  
+[2017-01-24 12:27:36] local.ERROR: exception 'ReflectionException' with message 'Class App\Transformers\LessonsTransformer does not exist' in /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionParameter->getClass()
+#1 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Container/Container.php(790): Illuminate\Container\Container->getDependencies(Array, Array)
+#2 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Container/Container.php(644): Illuminate\Container\Container->build('App\\Http\\Contro...', Array)
+#3 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(709): Illuminate\Container\Container->make('App\\Http\\Contro...', Array)
+#4 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Route.php(203): Illuminate\Foundation\Application->make('App\\Http\\Contro...')
+#5 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Route.php(316): Illuminate\Routing\Route->getController()
+#6 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Route.php(278): Illuminate\Routing\Route->controllerMiddleware()
+#7 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Router.php(666): Illuminate\Routing\Route->gatherMiddleware()
+#8 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Router.php(646): Illuminate\Routing\Router->gatherRouteMiddleware(Object(Illuminate\Routing\Route))
+#9 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Router.php(629): Illuminate\Routing\Router->runRouteWithinStack(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request))
+#10 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Router.php(607): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#11 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(268): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#12 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Foundation\Http\Kernel->Illuminate\Foundation\Http\{closure}(Object(Illuminate\Http\Request))
+#13 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/CheckForMaintenanceMode.php(46): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#14 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode->handle(Object(Illuminate\Http\Request), Object(Closure))
+#15 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(33): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#16 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(104): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#17 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(150): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#18 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(117): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#19 /home/work/data/www/vhosts/learn-api/public/index.php(54): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#20 {main}  
+[2017-01-24 12:27:36] local.ERROR: exception 'ReflectionException' with message 'Class App\Transformers\LessonsTransformer does not exist' in /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionParameter->getClass()
+#1 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Container/Container.php(790): Illuminate\Container\Container->getDependencies(Array, Array)
+#2 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Container/Container.php(644): Illuminate\Container\Container->build('App\\Http\\Contro...', Array)
+#3 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(709): Illuminate\Container\Container->make('App\\Http\\Contro...', Array)
+#4 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Route.php(203): Illuminate\Foundation\Application->make('App\\Http\\Contro...')
+#5 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Route.php(316): Illuminate\Routing\Route->getController()
+#6 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Route.php(278): Illuminate\Routing\Route->controllerMiddleware()
+#7 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Router.php(666): Illuminate\Routing\Route->gatherMiddleware()
+#8 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(193): Illuminate\Routing\Router->gatherRouteMiddleware(Object(Illuminate\Routing\Route))
+#9 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(163): Illuminate\Foundation\Http\Kernel->gatherRouteMiddleware(Object(Illuminate\Http\Request))
+#10 /home/work/data/www/vhosts/learn-api/public/index.php(58): Illuminate\Foundation\Http\Kernel->terminate(Object(Illuminate\Http\Request), Object(Illuminate\Http\Response))
+#11 {main}  
+[2017-01-24 12:27:37] local.ERROR: exception 'ReflectionException' with message 'Class App\Transformers\LessonsTransformer does not exist' in /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionParameter->getClass()
+#1 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Container/Container.php(790): Illuminate\Container\Container->getDependencies(Array, Array)
+#2 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Container/Container.php(644): Illuminate\Container\Container->build('App\\Http\\Contro...', Array)
+#3 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(709): Illuminate\Container\Container->make('App\\Http\\Contro...', Array)
+#4 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Route.php(203): Illuminate\Foundation\Application->make('App\\Http\\Contro...')
+#5 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Route.php(316): Illuminate\Routing\Route->getController()
+#6 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Route.php(278): Illuminate\Routing\Route->controllerMiddleware()
+#7 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Router.php(666): Illuminate\Routing\Route->gatherMiddleware()
+#8 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Router.php(646): Illuminate\Routing\Router->gatherRouteMiddleware(Object(Illuminate\Routing\Route))
+#9 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Router.php(629): Illuminate\Routing\Router->runRouteWithinStack(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request))
+#10 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Router.php(607): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#11 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(268): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#12 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Foundation\Http\Kernel->Illuminate\Foundation\Http\{closure}(Object(Illuminate\Http\Request))
+#13 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/CheckForMaintenanceMode.php(46): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#14 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode->handle(Object(Illuminate\Http\Request), Object(Closure))
+#15 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(33): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#16 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(104): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#17 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(150): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#18 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(117): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#19 /home/work/data/www/vhosts/learn-api/public/index.php(54): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#20 {main}  
+[2017-01-24 12:27:37] local.ERROR: exception 'ReflectionException' with message 'Class App\Transformers\LessonsTransformer does not exist' in /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionParameter->getClass()
+#1 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Container/Container.php(790): Illuminate\Container\Container->getDependencies(Array, Array)
+#2 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Container/Container.php(644): Illuminate\Container\Container->build('App\\Http\\Contro...', Array)
+#3 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(709): Illuminate\Container\Container->make('App\\Http\\Contro...', Array)
+#4 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Route.php(203): Illuminate\Foundation\Application->make('App\\Http\\Contro...')
+#5 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Route.php(316): Illuminate\Routing\Route->getController()
+#6 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Route.php(278): Illuminate\Routing\Route->controllerMiddleware()
+#7 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Router.php(666): Illuminate\Routing\Route->gatherMiddleware()
+#8 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(193): Illuminate\Routing\Router->gatherRouteMiddleware(Object(Illuminate\Routing\Route))
+#9 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(163): Illuminate\Foundation\Http\Kernel->gatherRouteMiddleware(Object(Illuminate\Http\Request))
+#10 /home/work/data/www/vhosts/learn-api/public/index.php(58): Illuminate\Foundation\Http\Kernel->terminate(Object(Illuminate\Http\Request), Object(Illuminate\Http\Response))
+#11 {main}  
+[2017-01-24 12:27:38] local.ERROR: exception 'ReflectionException' with message 'Class App\Transformers\LessonsTransformer does not exist' in /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionParameter->getClass()
+#1 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Container/Container.php(790): Illuminate\Container\Container->getDependencies(Array, Array)
+#2 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Container/Container.php(644): Illuminate\Container\Container->build('App\\Http\\Contro...', Array)
+#3 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(709): Illuminate\Container\Container->make('App\\Http\\Contro...', Array)
+#4 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Route.php(203): Illuminate\Foundation\Application->make('App\\Http\\Contro...')
+#5 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Route.php(316): Illuminate\Routing\Route->getController()
+#6 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Route.php(278): Illuminate\Routing\Route->controllerMiddleware()
+#7 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Router.php(666): Illuminate\Routing\Route->gatherMiddleware()
+#8 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Router.php(646): Illuminate\Routing\Router->gatherRouteMiddleware(Object(Illuminate\Routing\Route))
+#9 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Router.php(629): Illuminate\Routing\Router->runRouteWithinStack(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request))
+#10 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Router.php(607): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#11 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(268): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#12 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Foundation\Http\Kernel->Illuminate\Foundation\Http\{closure}(Object(Illuminate\Http\Request))
+#13 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/CheckForMaintenanceMode.php(46): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#14 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode->handle(Object(Illuminate\Http\Request), Object(Closure))
+#15 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(33): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#16 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(104): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#17 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(150): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#18 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(117): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#19 /home/work/data/www/vhosts/learn-api/public/index.php(54): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#20 {main}  
+[2017-01-24 12:27:38] local.ERROR: exception 'ReflectionException' with message 'Class App\Transformers\LessonsTransformer does not exist' in /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionParameter->getClass()
+#1 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Container/Container.php(790): Illuminate\Container\Container->getDependencies(Array, Array)
+#2 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Container/Container.php(644): Illuminate\Container\Container->build('App\\Http\\Contro...', Array)
+#3 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(709): Illuminate\Container\Container->make('App\\Http\\Contro...', Array)
+#4 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Route.php(203): Illuminate\Foundation\Application->make('App\\Http\\Contro...')
+#5 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Route.php(316): Illuminate\Routing\Route->getController()
+#6 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Route.php(278): Illuminate\Routing\Route->controllerMiddleware()
+#7 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Router.php(666): Illuminate\Routing\Route->gatherMiddleware()
+#8 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(193): Illuminate\Routing\Router->gatherRouteMiddleware(Object(Illuminate\Routing\Route))
+#9 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(163): Illuminate\Foundation\Http\Kernel->gatherRouteMiddleware(Object(Illuminate\Http\Request))
+#10 /home/work/data/www/vhosts/learn-api/public/index.php(58): Illuminate\Foundation\Http\Kernel->terminate(Object(Illuminate\Http\Request), Object(Illuminate\Http\Response))
+#11 {main}  
+[2017-01-24 12:27:38] local.ERROR: exception 'ReflectionException' with message 'Class App\Transformers\LessonsTransformer does not exist' in /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionParameter->getClass()
+#1 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Container/Container.php(790): Illuminate\Container\Container->getDependencies(Array, Array)
+#2 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Container/Container.php(644): Illuminate\Container\Container->build('App\\Http\\Contro...', Array)
+#3 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(709): Illuminate\Container\Container->make('App\\Http\\Contro...', Array)
+#4 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Route.php(203): Illuminate\Foundation\Application->make('App\\Http\\Contro...')
+#5 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Route.php(316): Illuminate\Routing\Route->getController()
+#6 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Route.php(278): Illuminate\Routing\Route->controllerMiddleware()
+#7 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Router.php(666): Illuminate\Routing\Route->gatherMiddleware()
+#8 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Router.php(646): Illuminate\Routing\Router->gatherRouteMiddleware(Object(Illuminate\Routing\Route))
+#9 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Router.php(629): Illuminate\Routing\Router->runRouteWithinStack(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request))
+#10 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Router.php(607): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#11 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(268): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#12 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Foundation\Http\Kernel->Illuminate\Foundation\Http\{closure}(Object(Illuminate\Http\Request))
+#13 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/CheckForMaintenanceMode.php(46): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#14 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode->handle(Object(Illuminate\Http\Request), Object(Closure))
+#15 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(33): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#16 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(104): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#17 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(150): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#18 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(117): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#19 /home/work/data/www/vhosts/learn-api/public/index.php(54): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#20 {main}  
+[2017-01-24 12:27:38] local.ERROR: exception 'ReflectionException' with message 'Class App\Transformers\LessonsTransformer does not exist' in /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionParameter->getClass()
+#1 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Container/Container.php(790): Illuminate\Container\Container->getDependencies(Array, Array)
+#2 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Container/Container.php(644): Illuminate\Container\Container->build('App\\Http\\Contro...', Array)
+#3 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(709): Illuminate\Container\Container->make('App\\Http\\Contro...', Array)
+#4 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Route.php(203): Illuminate\Foundation\Application->make('App\\Http\\Contro...')
+#5 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Route.php(316): Illuminate\Routing\Route->getController()
+#6 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Route.php(278): Illuminate\Routing\Route->controllerMiddleware()
+#7 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Router.php(666): Illuminate\Routing\Route->gatherMiddleware()
+#8 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(193): Illuminate\Routing\Router->gatherRouteMiddleware(Object(Illuminate\Routing\Route))
+#9 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(163): Illuminate\Foundation\Http\Kernel->gatherRouteMiddleware(Object(Illuminate\Http\Request))
+#10 /home/work/data/www/vhosts/learn-api/public/index.php(58): Illuminate\Foundation\Http\Kernel->terminate(Object(Illuminate\Http\Request), Object(Illuminate\Http\Response))
+#11 {main}  
+[2017-01-24 12:27:38] local.ERROR: exception 'ReflectionException' with message 'Class App\Transformers\LessonsTransformer does not exist' in /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionParameter->getClass()
+#1 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Container/Container.php(790): Illuminate\Container\Container->getDependencies(Array, Array)
+#2 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Container/Container.php(644): Illuminate\Container\Container->build('App\\Http\\Contro...', Array)
+#3 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(709): Illuminate\Container\Container->make('App\\Http\\Contro...', Array)
+#4 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Route.php(203): Illuminate\Foundation\Application->make('App\\Http\\Contro...')
+#5 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Route.php(316): Illuminate\Routing\Route->getController()
+#6 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Route.php(278): Illuminate\Routing\Route->controllerMiddleware()
+#7 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Router.php(666): Illuminate\Routing\Route->gatherMiddleware()
+#8 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Router.php(646): Illuminate\Routing\Router->gatherRouteMiddleware(Object(Illuminate\Routing\Route))
+#9 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Router.php(629): Illuminate\Routing\Router->runRouteWithinStack(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request))
+#10 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Router.php(607): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#11 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(268): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#12 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Foundation\Http\Kernel->Illuminate\Foundation\Http\{closure}(Object(Illuminate\Http\Request))
+#13 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/CheckForMaintenanceMode.php(46): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#14 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode->handle(Object(Illuminate\Http\Request), Object(Closure))
+#15 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(33): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#16 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(104): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#17 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(150): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#18 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(117): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#19 /home/work/data/www/vhosts/learn-api/public/index.php(54): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#20 {main}  
+[2017-01-24 12:27:38] local.ERROR: exception 'ReflectionException' with message 'Class App\Transformers\LessonsTransformer does not exist' in /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionParameter->getClass()
+#1 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Container/Container.php(790): Illuminate\Container\Container->getDependencies(Array, Array)
+#2 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Container/Container.php(644): Illuminate\Container\Container->build('App\\Http\\Contro...', Array)
+#3 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(709): Illuminate\Container\Container->make('App\\Http\\Contro...', Array)
+#4 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Route.php(203): Illuminate\Foundation\Application->make('App\\Http\\Contro...')
+#5 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Route.php(316): Illuminate\Routing\Route->getController()
+#6 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Route.php(278): Illuminate\Routing\Route->controllerMiddleware()
+#7 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Router.php(666): Illuminate\Routing\Route->gatherMiddleware()
+#8 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(193): Illuminate\Routing\Router->gatherRouteMiddleware(Object(Illuminate\Routing\Route))
+#9 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(163): Illuminate\Foundation\Http\Kernel->gatherRouteMiddleware(Object(Illuminate\Http\Request))
+#10 /home/work/data/www/vhosts/learn-api/public/index.php(58): Illuminate\Foundation\Http\Kernel->terminate(Object(Illuminate\Http\Request), Object(Illuminate\Http\Response))
+#11 {main}  
+[2017-01-24 12:27:38] local.ERROR: exception 'ReflectionException' with message 'Class App\Transformers\LessonsTransformer does not exist' in /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionParameter->getClass()
+#1 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Container/Container.php(790): Illuminate\Container\Container->getDependencies(Array, Array)
+#2 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Container/Container.php(644): Illuminate\Container\Container->build('App\\Http\\Contro...', Array)
+#3 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(709): Illuminate\Container\Container->make('App\\Http\\Contro...', Array)
+#4 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Route.php(203): Illuminate\Foundation\Application->make('App\\Http\\Contro...')
+#5 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Route.php(316): Illuminate\Routing\Route->getController()
+#6 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Route.php(278): Illuminate\Routing\Route->controllerMiddleware()
+#7 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Router.php(666): Illuminate\Routing\Route->gatherMiddleware()
+#8 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Router.php(646): Illuminate\Routing\Router->gatherRouteMiddleware(Object(Illuminate\Routing\Route))
+#9 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Router.php(629): Illuminate\Routing\Router->runRouteWithinStack(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request))
+#10 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Router.php(607): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#11 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(268): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#12 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Foundation\Http\Kernel->Illuminate\Foundation\Http\{closure}(Object(Illuminate\Http\Request))
+#13 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/CheckForMaintenanceMode.php(46): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#14 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode->handle(Object(Illuminate\Http\Request), Object(Closure))
+#15 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(33): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#16 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(104): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#17 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(150): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#18 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(117): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#19 /home/work/data/www/vhosts/learn-api/public/index.php(54): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#20 {main}  
+[2017-01-24 12:27:38] local.ERROR: exception 'ReflectionException' with message 'Class App\Transformers\LessonsTransformer does not exist' in /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionParameter->getClass()
+#1 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Container/Container.php(790): Illuminate\Container\Container->getDependencies(Array, Array)
+#2 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Container/Container.php(644): Illuminate\Container\Container->build('App\\Http\\Contro...', Array)
+#3 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(709): Illuminate\Container\Container->make('App\\Http\\Contro...', Array)
+#4 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Route.php(203): Illuminate\Foundation\Application->make('App\\Http\\Contro...')
+#5 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Route.php(316): Illuminate\Routing\Route->getController()
+#6 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Route.php(278): Illuminate\Routing\Route->controllerMiddleware()
+#7 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Router.php(666): Illuminate\Routing\Route->gatherMiddleware()
+#8 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(193): Illuminate\Routing\Router->gatherRouteMiddleware(Object(Illuminate\Routing\Route))
+#9 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(163): Illuminate\Foundation\Http\Kernel->gatherRouteMiddleware(Object(Illuminate\Http\Request))
+#10 /home/work/data/www/vhosts/learn-api/public/index.php(58): Illuminate\Foundation\Http\Kernel->terminate(Object(Illuminate\Http\Request), Object(Illuminate\Http\Response))
+#11 {main}  
+[2017-01-24 12:28:00] local.ERROR: exception 'ReflectionException' with message 'Class App\Transformers\LessonsTransformer does not exist' in /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionParameter->getClass()
+#1 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Container/Container.php(790): Illuminate\Container\Container->getDependencies(Array, Array)
+#2 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Container/Container.php(644): Illuminate\Container\Container->build('App\\Http\\Contro...', Array)
+#3 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(709): Illuminate\Container\Container->make('App\\Http\\Contro...', Array)
+#4 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Route.php(203): Illuminate\Foundation\Application->make('App\\Http\\Contro...')
+#5 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Route.php(316): Illuminate\Routing\Route->getController()
+#6 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Route.php(278): Illuminate\Routing\Route->controllerMiddleware()
+#7 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Router.php(666): Illuminate\Routing\Route->gatherMiddleware()
+#8 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Router.php(646): Illuminate\Routing\Router->gatherRouteMiddleware(Object(Illuminate\Routing\Route))
+#9 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Router.php(629): Illuminate\Routing\Router->runRouteWithinStack(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request))
+#10 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Router.php(607): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#11 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(268): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#12 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Foundation\Http\Kernel->Illuminate\Foundation\Http\{closure}(Object(Illuminate\Http\Request))
+#13 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/CheckForMaintenanceMode.php(46): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#14 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode->handle(Object(Illuminate\Http\Request), Object(Closure))
+#15 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(33): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#16 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(104): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#17 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(150): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#18 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(117): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#19 /home/work/data/www/vhosts/learn-api/public/index.php(54): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#20 {main}  
+[2017-01-24 12:28:00] local.ERROR: exception 'ReflectionException' with message 'Class App\Transformers\LessonsTransformer does not exist' in /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionParameter->getClass()
+#1 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Container/Container.php(790): Illuminate\Container\Container->getDependencies(Array, Array)
+#2 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Container/Container.php(644): Illuminate\Container\Container->build('App\\Http\\Contro...', Array)
+#3 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(709): Illuminate\Container\Container->make('App\\Http\\Contro...', Array)
+#4 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Route.php(203): Illuminate\Foundation\Application->make('App\\Http\\Contro...')
+#5 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Route.php(316): Illuminate\Routing\Route->getController()
+#6 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Route.php(278): Illuminate\Routing\Route->controllerMiddleware()
+#7 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Router.php(666): Illuminate\Routing\Route->gatherMiddleware()
+#8 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(193): Illuminate\Routing\Router->gatherRouteMiddleware(Object(Illuminate\Routing\Route))
+#9 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(163): Illuminate\Foundation\Http\Kernel->gatherRouteMiddleware(Object(Illuminate\Http\Request))
+#10 /home/work/data/www/vhosts/learn-api/public/index.php(58): Illuminate\Foundation\Http\Kernel->terminate(Object(Illuminate\Http\Request), Object(Illuminate\Http\Response))
+#11 {main}  
+[2017-01-24 12:28:23] local.ERROR: exception 'ReflectionException' with message 'Class App\Transformers\LessonsTransformer does not exist' in /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionParameter->getClass()
+#1 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Container/Container.php(790): Illuminate\Container\Container->getDependencies(Array, Array)
+#2 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Container/Container.php(644): Illuminate\Container\Container->build('App\\Http\\Contro...', Array)
+#3 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(709): Illuminate\Container\Container->make('App\\Http\\Contro...', Array)
+#4 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Route.php(203): Illuminate\Foundation\Application->make('App\\Http\\Contro...')
+#5 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Route.php(316): Illuminate\Routing\Route->getController()
+#6 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Route.php(278): Illuminate\Routing\Route->controllerMiddleware()
+#7 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Router.php(666): Illuminate\Routing\Route->gatherMiddleware()
+#8 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Router.php(646): Illuminate\Routing\Router->gatherRouteMiddleware(Object(Illuminate\Routing\Route))
+#9 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Router.php(629): Illuminate\Routing\Router->runRouteWithinStack(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request))
+#10 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Router.php(607): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#11 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(268): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#12 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Foundation\Http\Kernel->Illuminate\Foundation\Http\{closure}(Object(Illuminate\Http\Request))
+#13 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/CheckForMaintenanceMode.php(46): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#14 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode->handle(Object(Illuminate\Http\Request), Object(Closure))
+#15 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(33): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#16 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(104): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#17 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(150): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#18 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(117): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#19 /home/work/data/www/vhosts/learn-api/public/index.php(54): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#20 {main}  
+[2017-01-24 12:28:23] local.ERROR: exception 'ReflectionException' with message 'Class App\Transformers\LessonsTransformer does not exist' in /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionParameter->getClass()
+#1 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Container/Container.php(790): Illuminate\Container\Container->getDependencies(Array, Array)
+#2 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Container/Container.php(644): Illuminate\Container\Container->build('App\\Http\\Contro...', Array)
+#3 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(709): Illuminate\Container\Container->make('App\\Http\\Contro...', Array)
+#4 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Route.php(203): Illuminate\Foundation\Application->make('App\\Http\\Contro...')
+#5 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Route.php(316): Illuminate\Routing\Route->getController()
+#6 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Route.php(278): Illuminate\Routing\Route->controllerMiddleware()
+#7 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Router.php(666): Illuminate\Routing\Route->gatherMiddleware()
+#8 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(193): Illuminate\Routing\Router->gatherRouteMiddleware(Object(Illuminate\Routing\Route))
+#9 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(163): Illuminate\Foundation\Http\Kernel->gatherRouteMiddleware(Object(Illuminate\Http\Request))
+#10 /home/work/data/www/vhosts/learn-api/public/index.php(58): Illuminate\Foundation\Http\Kernel->terminate(Object(Illuminate\Http\Request), Object(Illuminate\Http\Response))
+#11 {main}  
+[2017-01-24 12:34:09] local.ERROR: Symfony\Component\Console\Exception\RuntimeException: The "--plain" option does not exist. in /data/vhosts/learn-api/vendor/symfony/console/Input/ArgvInput.php:219
+Stack trace:
+#0 /data/vhosts/learn-api/vendor/symfony/console/Input/ArgvInput.php(155): Symfony\Component\Console\Input\ArgvInput->addLongOption('plain', NULL)
+#1 /data/vhosts/learn-api/vendor/symfony/console/Input/ArgvInput.php(84): Symfony\Component\Console\Input\ArgvInput->parseLongOption('--plain')
+#2 /data/vhosts/learn-api/vendor/symfony/console/Input/Input.php(62): Symfony\Component\Console\Input\ArgvInput->parse()
+#3 /data/vhosts/learn-api/vendor/symfony/console/Command/Command.php(219): Symfony\Component\Console\Input\Input->bind(Object(Symfony\Component\Console\Input\InputDefinition))
+#4 /data/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Console/Command.php(155): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 /data/vhosts/learn-api/vendor/symfony/console/Application.php(817): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 /data/vhosts/learn-api/vendor/symfony/console/Application.php(185): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Routing\Console\ControllerMakeCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 /data/vhosts/learn-api/vendor/symfony/console/Application.php(116): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 /data/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(121): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 /data/vhosts/learn-api/artisan(35): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 {main}  
+[2017-01-24 13:12:40] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to undefined method Illuminate\Support\Facades\Request::get()' in /home/work/data/www/vhosts/learn-api/app/Http/Controllers/LessonsController.php:55
+Stack trace:
+#0 {main}  
+[2017-01-24 13:14:02] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to undefined method Illuminate\Support\Facades\Request::get()' in /home/work/data/www/vhosts/learn-api/app/Http/Controllers/LessonsController.php:56
+Stack trace:
+#0 {main}  
+[2017-01-24 13:14:03] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to undefined method Illuminate\Support\Facades\Request::get()' in /home/work/data/www/vhosts/learn-api/app/Http/Controllers/LessonsController.php:56
+Stack trace:
+#0 {main}  
+[2017-01-24 13:25:08] local.ERROR: exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1364 Field 'free' doesn't have a default value' in /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Database/Connection.php:480
+Stack trace:
+#0 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Database/Connection.php(480): PDOStatement->execute()
+#1 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Database/Connection.php(763): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'insert into `le...', Array)
+#2 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Database/Connection.php(726): Illuminate\Database\Connection->runQueryCallback('insert into `le...', Array, Object(Closure))
+#3 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Database/Connection.php(481): Illuminate\Database\Connection->run('insert into `le...', Array, Object(Closure))
+#4 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Database/Connection.php(435): Illuminate\Database\Connection->statement('insert into `le...', Array)
+#5 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Database/Query/Processors/Processor.php(32): Illuminate\Database\Connection->insert('insert into `le...', Array)
+#6 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(2154): Illuminate\Database\Query\Processors\Processor->processInsertGetId(Object(Illuminate\Database\Query\Builder), 'insert into `le...', Array, 'id')
+#7 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(1470): Illuminate\Database\Query\Builder->insertGetId(Array, 'id')
+#8 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1609): Illuminate\Database\Eloquent\Builder->__call('insertGetId', Array)
+#9 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1609): Illuminate\Database\Eloquent\Builder->insertGetId(Array, 'id')
+#10 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1574): Illuminate\Database\Eloquent\Model->insertAndSetId(Object(Illuminate\Database\Eloquent\Builder), Array)
+#11 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1471): Illuminate\Database\Eloquent\Model->performInsert(Object(Illuminate\Database\Eloquent\Builder))
+#12 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(561): Illuminate\Database\Eloquent\Model->save()
+#13 /home/work/data/www/vhosts/learn-api/app/Http/Controllers/LessonsController.php(59): Illuminate\Database\Eloquent\Model::create(Array)
+#14 [internal function]: App\Http\Controllers\LessonsController->store(Object(Illuminate\Http\Request))
+#15 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(55): call_user_func_array(Array, Array)
+#16 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(44): Illuminate\Routing\Controller->callAction('store', Array)
+#17 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Route.php(190): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(App\Http\Controllers\LessonsController), 'store')
+#18 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Route.php(144): Illuminate\Routing\Route->runController()
+#19 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Router.php(653): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#20 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Routing\Router->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#21 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Auth/Middleware/AuthenticateWithBasicAuth.php(38): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#22 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate\Auth\Middleware\AuthenticateWithBasicAuth->handle(Object(Illuminate\Http\Request), Object(Closure))
+#23 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(33): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#24 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(41): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#25 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate\Routing\Middleware\SubstituteBindings->handle(Object(Illuminate\Http\Request), Object(Closure))
+#26 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(33): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#27 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Middleware/ThrottleRequests.php(49): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#28 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate\Routing\Middleware\ThrottleRequests->handle(Object(Illuminate\Http\Request), Object(Closure), '60', '1')
+#29 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(33): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#30 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(104): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#31 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Router.php(655): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#32 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Router.php(629): Illuminate\Routing\Router->runRouteWithinStack(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request))
+#33 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Router.php(607): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#34 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(268): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#35 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Foundation\Http\Kernel->Illuminate\Foundation\Http\{closure}(Object(Illuminate\Http\Request))
+#36 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/CheckForMaintenanceMode.php(46): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#37 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode->handle(Object(Illuminate\Http\Request), Object(Closure))
+#38 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(33): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#39 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(104): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#40 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(150): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#41 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(117): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#42 /home/work/data/www/vhosts/learn-api/public/index.php(54): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#43 {main}
+
+Next exception 'Illuminate\Database\QueryException' with message 'SQLSTATE[HY000]: General error: 1364 Field 'free' doesn't have a default value (SQL: insert into `lessons` (`title`, `body`, `updated_at`, `created_at`) values (test title, test body, 2017-01-24 13:25:08, 2017-01-24 13:25:08))' in /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Database/Connection.php:770
+Stack trace:
+#0 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Database/Connection.php(726): Illuminate\Database\Connection->runQueryCallback('insert into `le...', Array, Object(Closure))
+#1 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Database/Connection.php(481): Illuminate\Database\Connection->run('insert into `le...', Array, Object(Closure))
+#2 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Database/Connection.php(435): Illuminate\Database\Connection->statement('insert into `le...', Array)
+#3 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Database/Query/Processors/Processor.php(32): Illuminate\Database\Connection->insert('insert into `le...', Array)
+#4 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(2154): Illuminate\Database\Query\Processors\Processor->processInsertGetId(Object(Illuminate\Database\Query\Builder), 'insert into `le...', Array, 'id')
+#5 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(1470): Illuminate\Database\Query\Builder->insertGetId(Array, 'id')
+#6 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1609): Illuminate\Database\Eloquent\Builder->__call('insertGetId', Array)
+#7 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1609): Illuminate\Database\Eloquent\Builder->insertGetId(Array, 'id')
+#8 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1574): Illuminate\Database\Eloquent\Model->insertAndSetId(Object(Illuminate\Database\Eloquent\Builder), Array)
+#9 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1471): Illuminate\Database\Eloquent\Model->performInsert(Object(Illuminate\Database\Eloquent\Builder))
+#10 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(561): Illuminate\Database\Eloquent\Model->save()
+#11 /home/work/data/www/vhosts/learn-api/app/Http/Controllers/LessonsController.php(59): Illuminate\Database\Eloquent\Model::create(Array)
+#12 [internal function]: App\Http\Controllers\LessonsController->store(Object(Illuminate\Http\Request))
+#13 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(55): call_user_func_array(Array, Array)
+#14 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(44): Illuminate\Routing\Controller->callAction('store', Array)
+#15 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Route.php(190): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(App\Http\Controllers\LessonsController), 'store')
+#16 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Route.php(144): Illuminate\Routing\Route->runController()
+#17 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Router.php(653): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#18 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Routing\Router->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#19 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Auth/Middleware/AuthenticateWithBasicAuth.php(38): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#20 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate\Auth\Middleware\AuthenticateWithBasicAuth->handle(Object(Illuminate\Http\Request), Object(Closure))
+#21 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(33): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#22 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(41): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#23 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate\Routing\Middleware\SubstituteBindings->handle(Object(Illuminate\Http\Request), Object(Closure))
+#24 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(33): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#25 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Middleware/ThrottleRequests.php(49): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#26 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate\Routing\Middleware\ThrottleRequests->handle(Object(Illuminate\Http\Request), Object(Closure), '60', '1')
+#27 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(33): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#28 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(104): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#29 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Router.php(655): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#30 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Router.php(629): Illuminate\Routing\Router->runRouteWithinStack(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request))
+#31 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Router.php(607): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#32 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(268): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#33 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Foundation\Http\Kernel->Illuminate\Foundation\Http\{closure}(Object(Illuminate\Http\Request))
+#34 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/CheckForMaintenanceMode.php(46): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#35 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode->handle(Object(Illuminate\Http\Request), Object(Closure))
+#36 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(33): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#37 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(104): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#38 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(150): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#39 /home/work/data/www/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(117): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#40 /home/work/data/www/vhosts/learn-api/public/index.php(54): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#41 {main}  
+[2017-01-24 13:26:43] local.ERROR: Symfony\Component\Console\Exception\CommandNotFoundException: Command "mig" is ambiguous (migrate, migrate:install and 4 more). in /data/vhosts/learn-api/vendor/symfony/console/Application.php:551
+Stack trace:
+#0 /data/vhosts/learn-api/vendor/symfony/console/Application.php(182): Symfony\Component\Console\Application->find('mig')
+#1 /data/vhosts/learn-api/vendor/symfony/console/Application.php(116): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 /data/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(121): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 /data/vhosts/learn-api/artisan(35): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 {main}  
+[2017-01-24 13:26:47] local.ERROR: Symfony\Component\Console\Exception\CommandNotFoundException: Command "migrate:" is ambiguous (migrate:install, migrate:rollback and 3 more). in /data/vhosts/learn-api/vendor/symfony/console/Application.php:551
+Stack trace:
+#0 /data/vhosts/learn-api/vendor/symfony/console/Application.php(182): Symfony\Component\Console\Application->find('migrate:')
+#1 /data/vhosts/learn-api/vendor/symfony/console/Application.php(116): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 /data/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(121): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 /data/vhosts/learn-api/artisan(35): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 {main}  
+[2017-01-24 13:26:51] local.ERROR: Symfony\Component\Console\Exception\CommandNotFoundException: Command "migration" is not defined.
+
+Did you mean one of these?
+    migrate
+    migrate:install
+    migrate:rollback
+    migrate:reset
+    migrate:refresh
+    migrate:status
+    make:migration in /data/vhosts/learn-api/vendor/symfony/console/Application.php:534
+Stack trace:
+#0 /data/vhosts/learn-api/vendor/symfony/console/Application.php(182): Symfony\Component\Console\Application->find('migration')
+#1 /data/vhosts/learn-api/vendor/symfony/console/Application.php(116): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 /data/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(121): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 /data/vhosts/learn-api/artisan(35): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 {main}  
+[2017-01-24 13:26:55] local.ERROR: Symfony\Component\Console\Exception\CommandNotFoundException: There are no commands defined in the "migration" namespace.
+
+Did you mean this?
+    migrate in /data/vhosts/learn-api/vendor/symfony/console/Application.php:488
+Stack trace:
+#0 /data/vhosts/learn-api/vendor/symfony/console/Application.php(520): Symfony\Component\Console\Application->findNamespace('migration')
+#1 /data/vhosts/learn-api/vendor/symfony/console/Application.php(182): Symfony\Component\Console\Application->find('migration:refre...')
+#2 /data/vhosts/learn-api/vendor/symfony/console/Application.php(116): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 /data/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(121): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 /data/vhosts/learn-api/artisan(35): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 {main}  
+[2017-01-24 14:01:28] local.ERROR: Symfony\Component\Console\Exception\CommandNotFoundException: Command "jwt" is not defined.
+
+Did you mean this?
+    jwt:generate in /data/vhosts/learn-api/vendor/symfony/console/Application.php:534
+Stack trace:
+#0 /data/vhosts/learn-api/vendor/symfony/console/Application.php(182): Symfony\Component\Console\Application->find('jwt')
+#1 /data/vhosts/learn-api/vendor/symfony/console/Application.php(116): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 /data/vhosts/learn-api/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(121): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 /data/vhosts/learn-api/artisan(35): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 {main}  
