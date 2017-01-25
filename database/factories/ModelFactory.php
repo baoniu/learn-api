@@ -24,11 +24,17 @@ $factory->define(App\User::class, function (Faker\Generator $faker) {
 });
 
 $factory->define(App\Lesson::class, function (Faker\Generator $faker) {
-    static $password;
-
     return [
         'title' => $faker->sentence,
         'body'  => $faker->paragraph,
         'free'  => $faker->boolean()
+    ];
+});
+
+$factory->define(App\Client::class, function (Faker\Generator $faker) {
+    return [
+        'id'    => str_random(38),
+        'secret'=> str_random(38),
+        'name'  => $faker->name
     ];
 });
